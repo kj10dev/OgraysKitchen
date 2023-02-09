@@ -5,10 +5,13 @@
     android:layout_height="match_parent"
     tools:context=".ui.StartersFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvStarters"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        tools:itemCount="10"
+        tools:listitem="@layout/card_view_design_meal"
+        android:padding="8dp" />
 
 </FrameLayout>
