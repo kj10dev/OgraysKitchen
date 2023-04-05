@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "com.example.ograyskitchen.app-mergeDebugResources-54:/layout/activity_main.xml",
+        "source": "com.example.ograyskitchen.app-main-57:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.ograyskitchen.app-mergeDebugResources-54:/layout/fragment_checkout_item.xml",
+        "source": "com.example.ograyskitchen.app-main-57:/layout/fragment_checkout_item.xml"
+    },
+    {
+        "merged": "com.example.ograyskitchen.app-mergeDebugResources-54:/layout/fragment_home.xml",
+        "source": "com.example.ograyskitchen.app-main-57:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.ograyskitchen.app-mergeDebugResources-54:/layout/fragment_help.xml",
+        "source": "com.example.ograyskitchen.app-main-57:/layout/fragment_help.xml"
+    },
+    {
+        "merged": "com.example.ograyskitchen.app-mergeDebugResources-54:/layout/card_view_design_meal.xml",
+        "source": "com.example.ograyskitchen.app-main-57:/layout/card_view_design_meal.xml"
+    },
+    {
+        "merged": "com.example.ograyskitchen.app-mergeDebugResources-54:/layout/fragment_checkout.xml",
+        "source": "com.example.ograyskitchen.app-main-57:/layout/fragment_checkout.xml"
+    },
+    {
+        "merged": "com.example.ograyskitchen.app-mergeDebugResources-54:/layout/fragment_mains.xml",
+        "source": "com.example.ograyskitchen.app-main-57:/layout/fragment_mains.xml"
+    },
+    {
+        "merged": "com.example.ograyskitchen.app-mergeDebugResources-54:/layout/fragment_myorders.xml",
+        "source": "com.example.ograyskitchen.app-main-57:/layout/fragment_myorders.xml"
+    },
+    {
+        "merged": "com.example.ograyskitchen.app-mergeDebugResources-54:/layout/fragment_specials.xml",
+        "source": "com.example.ograyskitchen.app-main-57:/layout/fragment_specials.xml"
+    },
+    {
+        "merged": "com.example.ograyskitchen.app-mergeDebugResources-54:/layout/fragment_checkout_list.xml",
+        "source": "com.example.ograyskitchen.app-main-57:/layout/fragment_checkout_list.xml"
+    },
+    {
+        "merged": "com.example.ograyskitchen.app-mergeDebugResources-54:/layout/fragment_chat.xml",
+        "source": "com.example.ograyskitchen.app-main-57:/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "com.example.ograyskitchen.app-mergeDebugResources-54:/layout/fragment_dessert.xml",
+        "source": "com.example.ograyskitchen.app-main-57:/layout/fragment_dessert.xml"
+    },
+    {
+        "merged": "com.example.ograyskitchen.app-mergeDebugResources-54:/layout/fragment_profile.xml",
+        "source": "com.example.ograyskitchen.app-main-57:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.example.ograyskitchen.app-mergeDebugResources-54:/layout/fragment_food_item.xml",
+        "source": "com.example.ograyskitchen.app-main-57:/layout/fragment_food_item.xml"
+    },
+    {
+        "merged": "com.example.ograyskitchen.app-mergeDebugResources-54:/layout/fragment_starters.xml",
+        "source": "com.example.ograyskitchen.app-main-57:/layout/fragment_starters.xml"
+    },
+    {
+        "merged": "com.example.ograyskitchen.app-mergeDebugResources-54:/layout/card_view_design_settings.xml",
+        "source": "com.example.ograyskitchen.app-main-57:/layout/card_view_design_settings.xml"
+    }
+]

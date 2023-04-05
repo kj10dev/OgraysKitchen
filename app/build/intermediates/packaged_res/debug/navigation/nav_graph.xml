@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.ograyskitchen.ui.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_dessertsFragment"
+            app:destination="@id/dessertFragment"
+            app:popUpTo="@id/homeFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_startersFragment"
+            app:destination="@id/startersFragment"
+            app:popUpTo="@id/homeFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_specialsFragment"
+            app:destination="@id/specialsFragment"
+            app:popUpTo="@id/homeFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_mainsFragment"
+            app:destination="@id/mainsFragment"
+            app:popUpTo="@id/homeFragment" />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/browseFragment"
+        android:name="com.example.ograyskitchen.ui.BrowseFragment"
+        android:label="Browse"
+        tools:layout="@layout/fragment_browse" />
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.ograyskitchen.ChatFragment"
+        android:label="Chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/helpFragment"
+        android:name="com.example.ograyskitchen.ui.HelpFragment"
+        android:label="Help"
+        tools:layout="@layout/fragment_help" />
+    <fragment
+        android:id="@+id/mainsFragment"
+        android:name="com.example.ograyskitchen.ui.MainsFragment"
+        android:label="Mains"
+        tools:layout="@layout/fragment_mains" />
+    <fragment
+        android:id="@+id/myOrdersFragment"
+        android:name="com.example.ograyskitchen.ui.MyOrdersFragment"
+        android:label="Orders"
+        tools:layout="@layout/fragment_myorders" />
+    <fragment
+        android:id="@+id/dessertFragment"
+        android:name="com.example.ograyskitchen.ui.DessertFragment"
+        android:label="Desserts"
+        tools:layout="@layout/fragment_dessert" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.ograyskitchen.ui.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/specialsFragment"
+        android:name="com.example.ograyskitchen.ui.SpecialsFragment"
+        android:label="fragment_specials"
+        tools:layout="@layout/fragment_specials" />
+    <fragment
+        android:id="@+id/foodItemFragment"
+        android:name="com.example.ograyskitchen.ui.FoodItemFragment"
+        android:label="fragment_food_item"
+        tools:layout="@layout/fragment_food_item" />
+    <fragment
+        android:id="@+id/startersFragment"
+        android:name="com.example.ograyskitchen.ui.StartersFragment"
+        android:label="Starters"
+        tools:layout="@layout/fragment_starters" />
+    <fragment
+        android:id="@+id/checkoutListFragment"
+        android:name="com.example.ograyskitchen.ui.checkout.CheckoutListFragment"
+        android:label="fragment_checkout_list"
+        tools:layout="@layout/fragment_checkout_list" />
+</navigation>
